@@ -1,5 +1,5 @@
 过程：
-1.官网下载https://www.files.gallery/，当前下载的版本是Files Gallery 0.12.0，仅单文件index.php；
+1.官网下载www.files.gallery，当前下载的版本是Files Gallery 0.12.0，仅单文件index.php；
 2.修改index.php。将以下代码插入// load _files/js/custom.js之前的var CodeMirror = {};打空行之后，再空行：
 
 !function(){const t=window.XMLHttpRequest;window.XMLHttpRequest=function(){const e=new t;return e.open=function(n,o,s,p,l){"GET"===n&&o.startsWith("<?php echo config::$version ?>files.photo.gallery@")&&o.endsWith("/lang/zh.json")&&(arguments[1]=arguments[1].replace(/@[0-9\.]+\/lang/,"@latest/lang")),"POST"===n&&o.includes("auth.photo.gallery")&&(e.send=function(e){t.prototype.send.apply(this,["app=2&host=demo.files.gallery"])}),t.prototype.open.apply(this,arguments)},e}}();
