@@ -9,4 +9,4 @@
 
 成品：
 github的files.gallery中单文件已编辑好。
-放入网站目录，首次浏览器访问，自动创建配置文件_files/config/config.php。网页界面编辑'allow_all' => true,编辑'username' => 'pkopen','password' => 等等。官方配置介绍https://www.files.gallery/docs/config/#allow_settings。
+放入网站目录，首次浏览器访问，自动创建配置文件_files/config/config.php。网页界面编辑'allow_all' => true,编辑'username' => 'pkopen','password' => 等等。官方配置介绍https://www.files.gallery/docs/config/#allow_settings
