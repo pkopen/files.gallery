@@ -1,6 +1,6 @@
 修改过程：
 
- 1.官网下载，此版本是Files Gallery 0.12.0，仅单文件index.php； 
+ 1.files gallery是一个单文件的 PHP 程序，只需要把这个文件放到任意文件夹中，通过浏览器访问，该文件夹就变成了网页版本的文件库，可以预览图片、视频、音频，以及文本文件。此版本是 0.12.0，官网下载仅单文件index.php； 
 
  2.修改index.php。找到var CodeMirror = {};（在// load _files/js/custom.js前几行），在下面打空行，插入以下代码，再打空行：
 
