@@ -11,4 +11,5 @@
 3.编辑配置文件，启用 'allow_settings' => true,（启用直接从界面编辑选项和创建用户）
 
 使用成品： 
-files.gallery存储库中单文件已编辑好。 放到网站目录，用浏览器首次访问，自动创建配置文件_files/config/config.php。网页界面编辑'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true；等。官方配置介绍https://www.files.gallery/docs/config
+
+files.gallery存储库中单文件已编辑好。 放到网站目录，用浏览器首次访问，将自动创建配置文件_files/config/config.php。网页界面编辑'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true。官方配置md5工具https://www.files.gallery/tools/hash
