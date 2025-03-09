@@ -12,4 +12,4 @@
 
 使用成品： 
 
-files.gallery存储库中单文件已编辑好。 放到网站目录，用浏览器首次访问，将自动创建配置文件_files/config/config.php。网页界面编辑'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true。官方配置md5工具https://www.files.gallery/tools/hash
+files.gallery存储库中单文件已编辑好。 放到网站目录，用浏览器首次访问，将自动创建配置文件_files/config/config.php。网页界面编辑'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true。官方md5工具https://www.files.gallery/tools/hash
