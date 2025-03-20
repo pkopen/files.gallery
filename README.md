@@ -1,6 +1,6 @@
 修改过程：
 
- 1.files gallery是一个单文件的 PHP 程序，只需要把这个文件放到任意文件夹，通过浏览器访问，该文件夹就变成了网页版本的文件库，可以预览图片、视频、音频，以及文本文件。此版本是 0.12.4，官网下载仅单文件index.php； 
+ 1.files gallery是一个单文件的 PHP 程序。把这个文件放到任意文件夹，通过浏览器访问，该文件夹就变成了网页版本的文件库，可以预览图片、视频、音频，以及文本文件。官网下载 0.12.4版； 
 
  2.修改index.php。找到var CodeMirror = {};（在// load _files/js/custom.js前几行），在它下面打空行，插入以下代码，再打空行：
 
@@ -12,4 +12,4 @@
 
 使用成品： 
 
-files.gallery存储库中单文件已编辑好。 放到网站目录，用浏览器首次访问，将自动创建配置文件_files/config/config.php。网页界面编辑'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true。官方md5工具https://www.files.gallery/tools/hash
+files.gallery存储库中此单文件已编辑好。 放到网站目录，用浏览器首次访问，将自动创建配置文件_files/config/config.php。网页界面编辑'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true。
