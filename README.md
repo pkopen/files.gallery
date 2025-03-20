@@ -1,6 +1,6 @@
 修改过程：
 
- 1.files gallery是一个单文件的 PHP 程序，只需要把这个文件放到任意文件夹中，通过浏览器访问，该文件夹就变成了网页版本的文件库，可以预览图片、视频、音频，以及文本文件。此版本是 0.12.0，官网下载仅单文件index.php； 
+ 1.files gallery是一个单文件的 PHP 程序，只需要把这个文件放到任意文件夹中，通过浏览器访问，该文件夹就变成了网页版本的文件库，可以预览图片、视频、音频，以及文本文件。此版本是 0.12.4，官网下载仅单文件index.php； 
 
  2.修改index.php。找到var CodeMirror = {};（在// load _files/js/custom.js前几行），在下面打空行，插入以下代码，再打空行：
 
@@ -8,7 +8,7 @@
 
 //这是为了将指定的URL中的版本号替换为 @latest/lang、将包含 auth.photo.gallery的URL修改请求内容使其始终发送固定的数据 app=2&host=demo.files.gallery。
 
-3.编辑配置文件，启用 'allow_settings' => true,（启用直接从界面编辑选项和创建用户）
+3.编辑其中的配置，启用 'allow_settings' => true,（启用直接从界面编辑选项和创建用户）
 
 使用成品： 
 
