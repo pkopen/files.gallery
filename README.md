@@ -1,8 +1,8 @@
 修改过程：
 
- 1.files gallery是一个单文件的 PHP 程序。把这个文件放到任意文件夹，通过浏览器访问，该文件夹就变成了网页版本的文件库，可以预览图片、视频、音频，以及文本文件。官网下载 0.14.0版； 
+ 1.files gallery是一个单文件的 PHP 程序。把这个文件放到任意文件夹，通过浏览器访问，该文件夹就变成了网页版本的文件库，可以预览图片、视频、音频，以及文本文件。官网www.files.gallery下载新版； 
 
- 2.修改index.php。找到var CodeMirror = {};（在// load _files/js/custom.js前几行），在它下面打空行，插入以下代码（从旧版本的index.php代码中找到并复制到新版本最佳，仅连续的一行），再打空行：
+ 2.修改index.php。找到var CodeMirror = {};（在// load _files/js/custom.js前几行），在它下面打空行，插入以下代码（从旧版本的index.php代码中找到并复制到新版修改最佳，仅一行），再打空行：
 
 !function(){const t=window.XMLHttpRequest;window.XMLHttpRequest=function(){const e=new t;return e.open=function(n,o,s,p,l){"GET"===n&&o.startsWith("<?php echo config::$version ?>files.photo.gallery@")&&o.endsWith("/lang/zh.json")&&(arguments[1]=arguments[1].replace(/@[0-9\.]+\/lang/,"@latest/lang")),"POST"===n&&o.includes("auth.photo.gallery")&&(e.send=function(e){t.prototype.send.apply(this,["app=2&host=demo.files.gallery"])}),t.prototype.open.apply(this,arguments)},e}}();
 
