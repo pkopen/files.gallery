@@ -98,7 +98,7 @@ class Config {
     'allow_download' => true,
     'allow_mass_download' => false,
     'allow_mass_copy_links' => false,
-    allow_settings' => true,
+    'allow_settings' => true,
     'allow_check_updates' => false,
     'allow_tests' => true,
     'allow_tasks' => false,
