@@ -12,4 +12,4 @@
 
 使用成品： 
 
-files.gallery存储库中此单文件已编辑好。 放到网站目录，用浏览器首次访问，将自动创建配置文件_files/config/config.php。访问网页，右上角设置，改'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true。
+files.gallery存储库中此单文件已按1.2.3.编辑好。 只要放入网站目录，用浏览器首次访问，将自动创建配置文件_files/config/config.php。访问网页，右上角设置，改'username' => 'pkopen','password' => 'md5值'；编辑'allow_all' => true。
